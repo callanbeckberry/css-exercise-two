@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #add8e6;
+  color: #222222;
+  font-size: 16px;
 }
 
 nav {
@@ -9,6 +10,41 @@ nav {
   position: fixed;
   width: 100%;
 }
+
+h1{
+  font-size: 3em;
+  line-height: 2
+}
+
+h3{
+  font-size: 2em;
+  line-height: 1.2
+}
+
+p {
+padding-top: 1em;
+  font-size: 1em;
+  line-height: 1.4
+}
+
+figcaption{
+font-style: italic;
+font-size: 1.2em
+}
+
+.author {
+font-style: oblique;
+font-weight: bold;
+}
+
+a:link { color:#ffffff; } /* unvisited */
+a:hover { color:#000000; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
+
+a {
+  text-decoration: none;
+}
+
 
 .logo {
   margin: 20px;
